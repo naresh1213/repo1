@@ -35,7 +35,7 @@ public class DemoApplication {
 		
 		repository.update(new Person("naresh","ram"));*/
 		
-		Course c=repo.findById(1);
+		Course c=repo.findById(1l);
 		log.info("Course for 1--->{}",c);
 		
 	}
