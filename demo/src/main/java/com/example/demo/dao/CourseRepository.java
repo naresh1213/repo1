@@ -14,7 +14,7 @@ public class CourseRepository {
 	@PersistenceContext
 	EntityManager entity;
 	
-	public Course findById(Long id){
+	public Course findById(Integer id){
 		return entity.find(Course.class, id);
 	}
 

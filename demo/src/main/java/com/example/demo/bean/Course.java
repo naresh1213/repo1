@@ -7,8 +7,7 @@ import javax.persistence.Id;
 @Entity
 public class Course {
 @Id
-@GeneratedValue
-private int id;
+private Integer id;
 private String name;
 protected Course(){}
 
